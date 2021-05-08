@@ -1,6 +1,10 @@
-# static
-A container serving a static file using nginx
+# As a service Index
 
-Build with `$ docker build -t static .`
+To add a new website:
 
-Run with `$ docker run -p8080:8080 static`
+1. Deploy to Cloud Run
+2. Create a new Firebase target: `firebase target:apply hosting blog myapp-blog`
+3. Add the new site to `firebase.json`
+4. Create a [new site in Firebase Hosting](https://console.firebase.google.com/project/as-a-service-dev/hosting/sites)
+5. Add a new domain to the site
+6. Update DNS
