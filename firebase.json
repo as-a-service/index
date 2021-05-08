@@ -1,11 +1,27 @@
 {
-  "hosting": {
-    "public": "static",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    "hosting": [
+        {
+            "target": "index",
+            "public": "static",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "target": "render",
+            "public": "empty",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "run": {
+                        "serviceId": "render",
+                        "region": "us-central1"
+                    }
+                }
+            ]
+        }
     ]
-  }
 }

@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "as-a-service-dev"
+  },
+  "targets": {
+    "as-a-service-dev": {
+      "hosting": {
+        "render": [
+          "render-as-a-service"
+        ],
+        "index": [
+          "as-a-service-dev"
+        ]
+      }
+    }
   }
 }
