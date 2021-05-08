@@ -48,6 +48,58 @@
                     }
                 }
             ]
+        },
+        {
+            "target": "meme",
+            "public": "empty",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "run": {
+                        "serviceId": "meme",
+                        "region": "us-central1"
+                    }
+                }
+            ]
+        },
+        {
+            "target": "screenshot",
+            "public": "empty",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "run": {
+                        "serviceId": "screenshot",
+                        "region": "us-central1"
+                    }
+                }
+            ]
+        },
+        {
+            "target": "inkscape",
+            "public": "empty",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "run": {
+                        "serviceId": "inkscape",
+                        "region": "us-central1"
+                    }
+                }
+            ]
+        },
+        {
+            "target": "trace",
+            "public": "empty",
+            "rewrites": [
+                {
+                    "source": "**",
+                    "run": {
+                        "serviceId": "trace",
+                        "region": "us-central1"
+                    }
+                }
+            ]
         }
     ]
 }

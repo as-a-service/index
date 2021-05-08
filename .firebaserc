@@ -16,6 +16,18 @@
         ],
         "html-to-svg": [
           "html-to-svg-as-a-service"
+        ],
+        "meme": [
+          "meme-as-a-service"
+        ],
+        "screenshot": [
+          "screenshot-as-a-service"
+        ],
+        "inkscape": [
+          "inkscape-as-a-service"
+        ],
+        "trace": [
+          "trace-as-a-service"
         ]
       }
     }
